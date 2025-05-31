@@ -15,3 +15,5 @@ Este projeto demonstra como usar o modelo Whisper da OpenAI para transcrever arq
 ```bash
 !pip install git+https://github.com/openai/whisper.git
 !sudo apt update && sudo apt install ffmpeg
+
+!whisper "Nome do seu arquivo" --model medium
